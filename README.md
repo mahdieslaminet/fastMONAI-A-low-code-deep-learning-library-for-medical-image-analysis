@@ -14,15 +14,15 @@ and a meaningful accuracy/precision evaluation for a generative model.
 # Project Structure
 fast_ddpm/
 │
-├── model.py            # U-Net noise prediction model
-├── diffusion.py        # Fast-DDPM forward and reverse processes
-├── train.py            # Training script
-├── sample.py           # Image generation from noise
-├── binary_mnist.py     # Binary MNIST dataset (digit 0 vs 1)
-├── evaluate.py         # Accuracy / precision evaluation
-├── test_fast_ddpm.py   # Unit tests
-├── requirements.txt
-└── README.md
+├── model.py            # U-Net noise prediction model <br>
+├── diffusion.py        # Fast-DDPM forward and reverse processes <br>
+├── train.py            # Training script <br>
+├── sample.py           # Image generation from noise <br>
+├── binary_mnist.py     # Binary MNIST dataset (digit 0 vs 1) <br>
+├── evaluate.py         # Accuracy / precision evaluation <br>
+├── test_fast_ddpm.py   # Unit tests <br>
+├── requirements.txt <br>
+└── README.md <br>
 
 # installation 
 pip install -r requirements.txt
